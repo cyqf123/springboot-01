@@ -1,0 +1,7 @@
+  spring:
+      datasource:
+         name: mdemo
+         url: jdbc:mysql//localhost:3306/mdemo:root
+         username: root
+         password: 3124
+         driver-class-name: com.mysql.jdbc.Driver
