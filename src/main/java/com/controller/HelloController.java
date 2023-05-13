@@ -9,7 +9,9 @@ public class HelloController {
 
     @RequestMapping(value ="/hello" )
     public String test(){
+        System.out.println("测试");
         return "hello";
     }
+
 
 }
